@@ -67,7 +67,7 @@ async function Atm() {
     }
 }
 function isValidUserId(userId) {
-    console.log("  " + "Your id must have 4 or more characters");
+    console.log("  " + "Please enter a valid id");
     return userId !== "" && userId.length >= 4;
 }
 function isValidUserPin(userPin) {
